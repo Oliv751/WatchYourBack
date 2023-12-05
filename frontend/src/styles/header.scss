@@ -1,0 +1,43 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    align-items: center;
+  }
+
+.samuraiLogo {
+  grid-area: 2/2/3/3;
+  width: 5vw;
+}
+
+.site-title{
+    font-size: 1rem;
+}
+
+.full-logo {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.button-connexion {
+    padding: 0 1rem;
+    border: none;
+    background: none;
+
+  }
+
+  .account-icon {
+    display: flex;
+    width: 2rem;
+    height: auto;
+    margin: auto;
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+  }
+  
+  .account-icon:hover {
+    background-color: #c91961;
+    color: #fff;
+  }

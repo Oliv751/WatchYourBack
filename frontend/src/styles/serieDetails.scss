@@ -1,0 +1,51 @@
+@import "variables";
+
+.serie-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .serie-details-title {
+        font-size: 1.3rem;
+        font-weight: bold;
+        justify-self: baseline;
+    }
+
+    .serie-details-img {
+        width: 10rem;
+        height: auto;
+    }
+
+    .serie-details-genre {
+        font-weight: bold;
+        color: $base-color;
+    }
+
+    .serie-details-year {
+
+        font-size: 0.9rem;
+        font-weight: bold;
+        color: $color-gray;
+    }
+
+    .serie-details-seasons {
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: $color-gray;
+    }
+
+    .serie-details-checkbox {
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: $color-gray;
+    }
+
+    .serie-details-description {
+        font-size: 1.2rem;
+    }
+
+    .serie-details-episode-description {
+        font-size: 1.2rem;
+    }
+    
+}

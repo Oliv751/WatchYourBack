@@ -1,0 +1,57 @@
+@import "variables";
+
+h2 {
+    padding: 2rem;
+}
+
+.show-card {
+    display: flex;
+    flex-direction: rows;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    padding: 1rem;
+    // border: 1px solid $color-gray;
+
+
+    .show-card-img {
+        align-self: center;
+        width: 7rem;
+        height: auto;
+    }
+
+    .show-card-text {
+        align-self: center;
+    }
+
+    .show-card-title {
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    
+    .show-card-genre {
+        padding-top: 0.2rem;
+        font-weight: bold;
+        color: $base-color;
+    }
+
+    .show-card-year {
+        padding-top: 0.2rem;
+        font-size: 0.9rem;
+        font-weight: bold;
+        color: $color-gray;
+    }
+
+    .show-card-description {
+        padding-top: 0.2rem;
+        font-size: 1.2rem;
+    }
+
+    .show-card-seasons {
+        padding-top: 0.2rem;
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: $color-gray;
+    }
+
+}
+

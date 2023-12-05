@@ -1,7 +1,14 @@
-export default function Home() {
+import SerieList from "../components/SerieList";
+import Header from "../components/Header";
+
+function Home() {
   return (
-    <header className="App-header">
-      <p>Home page</p>
-    </header>
+    <div>
+      <Header />
+      <h2>Last Shows</h2>
+      <SerieList />
+    </div>
   );
 }
+
+export default Home;
